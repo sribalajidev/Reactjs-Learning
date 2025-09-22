@@ -1,4 +1,4 @@
-# Install ReactJS
+# 1.Install ReactJS
 
 This folder contains the first step in learning ReactJS: **setting up a React project** from scratch.  
 We are using **Vite** for its simplicity and fast setup.
