@@ -1,0 +1,11 @@
+.active {
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inactive {
+  background-color: lightcoral;
+  padding: 10px;
+  border-radius: 5px;
+}

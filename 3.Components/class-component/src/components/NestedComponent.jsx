@@ -14,7 +14,7 @@ class NestedComponent extends Component {
       <div>
         <h2>Parent Component</h2>
         {/* Nested Child Component */}
-        <Child name="Sri" />
+        <Child name="User" />
       </div>
     );
   }
