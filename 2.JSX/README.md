@@ -49,6 +49,37 @@ By the end of this POC, you will be able to:
 
 ---
 
+## Important Notes About `import React from "react"`
+
+In older versions of React (before React 17), it was necessary to import React at the top of every JSX file:
+
+```javascript
+import React from "react";
+```
+
+- JSX was transpiled into React.createElement() calls under the hood.
+- Without importing React, the JSX code would throw an error.
+
+With React 17 and later, and modern tools like Vite, Create React App (CRA), or Next.js:
+- You do not need to import React in every JSX file.
+- JSX is automatically transformed without requiring React in scope.
+
+**Example:**
+```javascript
+// Works fine in React 17+ without importing React
+const Button = ({ label }) => <button>{label}</button>;
+```
+
+Editors like VS Code may show `import React from "react"` as grayed out or unused, which is normal.
+
+**Best Practices Today**
+- If using React 17+, you can safely remove `import React from "react"` from JSX files.
+- Only keep it if:
+    1. You are using React 16 or lower, or
+    2. Your build setup specifically requires it.
+
+---
+
 ## **Summary**
 
 - JSX allows HTML-like syntax in JavaScript.
