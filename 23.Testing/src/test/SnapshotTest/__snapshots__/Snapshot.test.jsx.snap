@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`SnapshotDemo Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="snapshot-demo"
+  >
+    <h1>
+      Snapshot Title
+    </h1>
+    <p>
+      This is a snapshot test component
+    </p>
+  </div>
+</DocumentFragment>
+`;
